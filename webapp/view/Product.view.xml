@@ -3,6 +3,7 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content >
+        <!-- List control -->
         <List id="idList" items="{RModel>/ProductSet}" itemPress="onClickItem" mode="None" growing="true" growingThreshold="10">
         <StandardListItem title="{RModel>Name}" description="{RModel>ProductID}" type="Navigation"/>
         

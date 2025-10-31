@@ -1,0 +1,10 @@
+<mvc:View controllerName="org.indexit.zrnav.controller.ProductDetail"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+        <List>
+        </List>
+        </content>
+    </Page>
+</mvc:View>

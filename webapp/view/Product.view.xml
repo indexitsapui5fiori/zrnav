@@ -1,0 +1,12 @@
+<mvc:View controllerName="org.indexit.zrnav.controller.Product"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+        <List id="idList" items="{RModel>/ProductSet}" itemPress="onClickItem" mode="None" growing="true" growingThreshold="10">
+        <StandardListItem title="{RModel>Name}" description="{RModel>ProductID}" type="Navigation"/>
+        
+        </List>
+        </content>
+    </Page>
+</mvc:View>
